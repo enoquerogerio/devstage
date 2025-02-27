@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+
+# Ambiente do editor
+.vscode/
+.idea/
+
+# Dependências locais
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.env
+
+# Pastas de builds, logs e outros arquivos temporários
+backend/node_modules/
+backend/dist/
+backend/.env
+
+
+
+# Ignorar pastas de dependências e builds no frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/.vscode/
+frontend/.idea/
+frontend/out/
+frontend/.env
+frontend/.vercel

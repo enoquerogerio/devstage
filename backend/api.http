@@ -1,0 +1,27 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "enoque 3",
+    "email": "indicado3@gmail.com",
+    "referrer": "805c5caa-42ea-4ec9-9671-d53cccd77d11"
+}
+
+###
+
+GET http://localhost:3333/invites/b0930a8f-c0ff-4937-ad95-7c1af44c65ca
+
+###
+
+GET http://localhost:3333/subscribers/805c5caa-42ea-4ec9-9671-d53cccd77d11/ranking/clicks
+
+
+### 
+GET http://localhost:3333/subscribers/805c5caa-42ea-4ec9-9671-d53cccd77d11/ranking/count
+
+### 
+GET http://localhost:3333/subscribers/805c5caa-42ea-4ec9-9671-d53cccd77d11/ranking/position
+
+
+### 
+GET http://localhost:3333/ranking
